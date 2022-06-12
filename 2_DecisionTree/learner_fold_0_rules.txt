@@ -1,0 +1,12 @@
+if (base <= 0.134) and (base > 0.0) and (base <= 0.017) then response: 0.008 | based on 39 samples
+
+if (base <= 0.134) and (base > 0.0) and (base > 0.017) then response: 0.036 | based on 29 samples
+
+if (base <= 0.134) and (base <= 0.0) and (tvl <= 14628495.5) then response: 0.061 | based on 9 samples
+
+if (base <= 0.134) and (base <= 0.0) and (tvl > 14628495.5) then response: 0.134 | based on 2 samples
+
+if (base > 0.134) and (base > 0.213) then response: 0.231 | based on 1 samples
+
+if (base > 0.134) and (base <= 0.213) then response: 0.196 | based on 1 samples
+
