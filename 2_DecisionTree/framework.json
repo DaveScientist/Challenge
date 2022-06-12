@@ -1,5 +1,5 @@
 {
-    "uid": "588a6815-12e3-4171-8440-a8cd7b99508b",
+    "uid": "286dded4-de48-4cc5-9a61-c8416421080e",
     "name": "2_DecisionTree",
     "preprocessing": [
         {
@@ -18,7 +18,7 @@
             "library_version": "1.0.2",
             "algorithm_name": "Decision Tree",
             "algorithm_short_name": "Decision Tree",
-            "uid": "5347e699-82ef-4b05-904b-302380a416c8",
+            "uid": "e29c318a-4e20-4847-876b-123afd8d1363",
             "params": {
                 "model_type": "Decision Tree",
                 "ml_task": "regression",
@@ -50,9 +50,9 @@
             "validation_type": "split",
             "train_ratio": 0.75,
             "shuffle": true,
-            "X_path": "AutoML_1\\X.data",
-            "y_path": "AutoML_1\\y.data",
-            "results_path": "AutoML_1"
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
         },
         "learner": {
             "model_type": "Decision Tree",
@@ -77,8 +77,8 @@
         "2_DecisionTree\\learner_fold_0.decision_tree"
     ],
     "predictions_fname": "2_DecisionTree\\predictions_validation.csv",
-    "metric_name": "mae",
-    "final_loss": 0.013329709239501804,
-    "train_time": 3.193340301513672,
+    "metric_name": "rmse",
+    "final_loss": 0.020569053597776266,
+    "train_time": 6.926723003387451,
     "is_stacked": false
 }

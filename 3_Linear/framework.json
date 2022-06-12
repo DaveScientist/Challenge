@@ -1,5 +1,5 @@
 {
-    "uid": "fe8dc8c3-dd69-4bee-91e6-61522e0c30d4",
+    "uid": "e7abb0f0-114d-4b6f-b2d2-a4eb43a43bc3",
     "name": "3_Linear",
     "preprocessing": [
         {
@@ -62,7 +62,7 @@
             "library_version": "1.0.2",
             "algorithm_name": "Linear Regression",
             "algorithm_short_name": "Linear",
-            "uid": "d9e4842d-a40b-47f3-a768-5dc03ab60751",
+            "uid": "b736fe42-f989-4a5d-8a86-e148857d4d5e",
             "params": {
                 "model_type": "Linear",
                 "ml_task": "regression",
@@ -95,9 +95,9 @@
             "validation_type": "split",
             "train_ratio": 0.75,
             "shuffle": true,
-            "X_path": "AutoML_1\\X.data",
-            "y_path": "AutoML_1\\y.data",
-            "results_path": "AutoML_1"
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
         },
         "learner": {
             "model_type": "Linear",
@@ -120,8 +120,8 @@
         "3_Linear\\learner_fold_0.linear"
     ],
     "predictions_fname": "3_Linear\\predictions_validation.csv",
-    "metric_name": "mae",
-    "final_loss": 0.012078468472315656,
-    "train_time": 0.926255464553833,
+    "metric_name": "rmse",
+    "final_loss": 0.018610366220799476,
+    "train_time": 4.091559648513794,
     "is_stacked": false
 }

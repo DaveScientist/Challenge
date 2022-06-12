@@ -1,5 +1,5 @@
 {
-    "uid": "93087d2a-0b5c-4627-830f-4457e8e59c0e",
+    "uid": "8d82db11-a51e-4243-b87b-0b8555a7dfa6",
     "name": "6_Default_RandomForest",
     "preprocessing": [
         {
@@ -39,7 +39,7 @@
             "library_version": "1.0.2",
             "algorithm_name": "Random Forest",
             "algorithm_short_name": "Random Forest",
-            "uid": "eddaba68-258b-4fd5-ac00-5a57c524ebe0",
+            "uid": "83ad5572-b098-4a1a-acb6-d4d3da1f9b1c",
             "params": {
                 "model_type": "Random Forest",
                 "ml_task": "regression",
@@ -49,7 +49,7 @@
                 "min_samples_split": 30,
                 "max_depth": 4,
                 "seed": 6,
-                "eval_metric_name": "mae",
+                "eval_metric_name": "rmse",
                 "explain_level": 2
             },
             "name": "learner_fold_0"
@@ -77,9 +77,9 @@
             "validation_type": "split",
             "train_ratio": 0.75,
             "shuffle": true,
-            "X_path": "AutoML_1\\X.data",
-            "y_path": "AutoML_1\\y.data",
-            "results_path": "AutoML_1"
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
         },
         "learner": {
             "model_type": "Random Forest",
@@ -90,7 +90,7 @@
             "min_samples_split": 30,
             "max_depth": 4,
             "seed": 6,
-            "eval_metric_name": "mae",
+            "eval_metric_name": "rmse",
             "explain_level": 2
         },
         "automl_random_state": 1234,
@@ -107,8 +107,8 @@
         "6_Default_RandomForest\\learner_fold_0.random_forest"
     ],
     "predictions_fname": "6_Default_RandomForest\\predictions_validation.csv",
-    "metric_name": "mae",
-    "final_loss": 0.017440172652391978,
-    "train_time": 5.761282444000244,
+    "metric_name": "rmse",
+    "final_loss": 0.023373950423220064,
+    "train_time": 5.286561965942383,
     "is_stacked": false
 }

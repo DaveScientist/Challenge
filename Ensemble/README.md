@@ -4,18 +4,19 @@
 
 
 ## Ensemble structure
-| Model             |   Weight |
-|:------------------|---------:|
-| 4_Default_Xgboost |        6 |
+| Model                   |   Weight |
+|:------------------------|---------:|
+| 4_Default_Xgboost       |        5 |
+| 5_Default_NeuralNetwork |        1 |
 
 ### Metric details:
 | Metric   |       Score |
 |:---------|------------:|
-| MAE      | 0.00445101  |
-| MSE      | 7.29612e-05 |
-| RMSE     | 0.00854173  |
-| R2       | 0.906416    |
-| MAPE     | 0.436292    |
+| MAE      | 0.00493692  |
+| MSE      | 6.35067e-05 |
+| RMSE     | 0.00796911  |
+| R2       | 0.918543    |
+| MAPE     | 1.02124     |
 
 
 

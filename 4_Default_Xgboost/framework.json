@@ -1,5 +1,5 @@
 {
-    "uid": "e31a3508-8076-47a3-bf93-a73af2c0145e",
+    "uid": "b47ddd80-6081-44c8-bb89-6d2ad11e0de6",
     "name": "4_Default_Xgboost",
     "preprocessing": [
         {
@@ -39,7 +39,7 @@
             "library_version": "1.5.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "c18dc6b4-b7e3-414a-8fa2-9cd6b618f242",
+            "uid": "1646e68b-56de-4ebc-a444-d8b13cadde1f",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -51,11 +51,11 @@
                 "subsample": 1.0,
                 "colsample_bytree": 1.0,
                 "seed": 4,
-                "eval_metric": "mae",
+                "eval_metric": "rmse",
                 "explain_level": 2
             },
             "name": "learner_fold_0",
-            "best_ntree_limit": 94
+            "best_ntree_limit": 110
         }
     ],
     "params": {
@@ -77,9 +77,9 @@
             "validation_type": "split",
             "train_ratio": 0.75,
             "shuffle": true,
-            "X_path": "AutoML_1\\X.data",
-            "y_path": "AutoML_1\\y.data",
-            "results_path": "AutoML_1"
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
         },
         "learner": {
             "model_type": "Xgboost",
@@ -92,7 +92,7 @@
             "subsample": 1.0,
             "colsample_bytree": 1.0,
             "seed": 4,
-            "eval_metric": "mae",
+            "eval_metric": "rmse",
             "explain_level": 2
         },
         "automl_random_state": 1234,
@@ -109,8 +109,8 @@
         "4_Default_Xgboost\\learner_fold_0.xgboost"
     ],
     "predictions_fname": "4_Default_Xgboost\\predictions_validation.csv",
-    "metric_name": "mae",
-    "final_loss": 0.004451006416336671,
-    "train_time": 4.831186056137085,
+    "metric_name": "rmse",
+    "final_loss": 0.008519944477494535,
+    "train_time": 4.849426031112671,
     "is_stacked": false
 }

@@ -11,7 +11,7 @@
 - **min_child_weight**: 1
 - **subsample**: 1.0
 - **colsample_bytree**: 1.0
-- **eval_metric**: mae
+- **eval_metric**: rmse
 - **explain_level**: 2
 
 ## Validation
@@ -20,7 +20,7 @@
  - **shuffle**: True
 
 ## Optimized metric
-mae
+rmse
 
 ## Training time
 
@@ -29,11 +29,11 @@ mae
 ### Metric details:
 | Metric   |       Score |
 |:---------|------------:|
-| MAE      | 0.00445101  |
-| MSE      | 7.29612e-05 |
-| RMSE     | 0.00854174  |
-| R2       | 0.906416    |
-| MAPE     | 0.436292    |
+| MAE      | 0.00449172  |
+| MSE      | 7.25895e-05 |
+| RMSE     | 0.00851994  |
+| R2       | 0.906893    |
+| MAPE     | 0.424553    |
 
 
 

@@ -1,5 +1,5 @@
 {
-    "uid": "460f25c0-b6fb-4d3d-b664-c6ce2bec637c",
+    "uid": "f66b605d-8269-49ac-81aa-2a4fad122891",
     "name": "5_Default_NeuralNetwork",
     "preprocessing": [
         {
@@ -62,7 +62,7 @@
             "library_version": "1.0.2",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "d35d6404-6115-4b65-a9c0-610a7f4122cd",
+            "uid": "c542e64a-ebef-44ef-87f0-ae72ea39b59e",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -97,9 +97,9 @@
             "validation_type": "split",
             "train_ratio": 0.75,
             "shuffle": true,
-            "X_path": "AutoML_1\\X.data",
-            "y_path": "AutoML_1\\y.data",
-            "results_path": "AutoML_1"
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
         },
         "learner": {
             "model_type": "Neural Network",
@@ -125,8 +125,8 @@
         "5_Default_NeuralNetwork\\learner_fold_0.neural_network"
     ],
     "predictions_fname": "5_Default_NeuralNetwork\\predictions_validation.csv",
-    "metric_name": "mae",
-    "final_loss": 0.012173253698364198,
-    "train_time": 3.8090085983276367,
+    "metric_name": "rmse",
+    "final_loss": 0.0172112591634736,
+    "train_time": 3.7877628803253174,
     "is_stacked": false
 }

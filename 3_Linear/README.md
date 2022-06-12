@@ -13,11 +13,11 @@
  - **shuffle**: True
 
 ## Optimized metric
-mae
+rmse
 
 ## Training time
 
-0.9 seconds
+4.1 seconds
 
 ### Metric details:
 | Metric   |       Score |

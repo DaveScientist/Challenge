@@ -9,7 +9,7 @@
 - **max_features**: 0.9
 - **min_samples_split**: 30
 - **max_depth**: 4
-- **eval_metric_name**: mae
+- **eval_metric_name**: rmse
 - **explain_level**: 2
 
 ## Validation
@@ -18,20 +18,20 @@
  - **shuffle**: True
 
 ## Optimized metric
-mae
+rmse
 
 ## Training time
 
-5.8 seconds
+5.3 seconds
 
 ### Metric details:
 | Metric   |       Score |
 |:---------|------------:|
-| MAE      | 0.0174402   |
-| MSE      | 0.000549259 |
-| RMSE     | 0.0234363   |
-| R2       | 0.29549     |
-| MAPE     | 4.81617     |
+| MAE      | 0.0174971   |
+| MSE      | 0.000546342 |
+| RMSE     | 0.023374    |
+| R2       | 0.299232    |
+| MAPE     | 4.63505     |
 
 
 

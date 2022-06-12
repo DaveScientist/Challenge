@@ -16,7 +16,7 @@
  - **shuffle**: True
 
 ## Optimized metric
-mae
+rmse
 
 ## Training time
 
